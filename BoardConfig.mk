@@ -57,6 +57,7 @@ QCOM_BT_USE_BTNV := true
 
 # Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
+USE_CAMERA_STUB := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
