@@ -56,7 +56,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libmmjpeg_interface \
     mm-qcamera-app \
-    Snap
+    SnapdragonCamera
 
 # CMActions
 PRODUCT_PACKAGES += \
