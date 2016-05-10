@@ -1,20 +1,26 @@
 [
   {
-    "remote": "github",
-    "repository": "scanno/android_hardware_qcom_display-caf-msm8992",
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_display-caf-msm8992",
     "target_path": "hardware/qcom/display-caf-msm8992",
     "revision": "android-6.0"
   },
   {
-    "remote": "github",
-    "repository": "scanno/android_hardware_qcom_media-caf-msm8992",
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_media-caf-msm8992",
     "target_path": "hardware/qcom/media-caf-msm8992",
     "revision": "android-6.0"
   },
   {
-    "remote": "github",
-    "repository": "scanno/android_hardware_qcom_audio-caf-msm8992",
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_audio-caf-msm8992",
     "target_path": "hardware/qcom/audio-caf-msm8992",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "vendor_qcom_opensource_display-frameworks",
+    "target_path": "vendor/qcom/opensource/display-frameworks",
     "revision": "android-6.0"
   },
   {
@@ -47,31 +53,35 @@
     "target_path": "vendor/qcom/opensource/dataservices",
     "revision": "android-6.0"
   },
-
   {
+    "remote": "github",
     "repository": "AICP/kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "branch":      "mm6.0"
+    "revision": "mm6.0"
   },
   {
-    "repository": "purenexus-clark/proprietary_vendor_motorola",
+    "remote": "github",
+    "repository": "scanno/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
-    "branch":      "mm"
+    "revision": "android-6.0"
   },
   {
-    "repository": "CyanogenMod/android_hardware_sony_thermanager",
+    "remote": "omnirom",
+    "repository": "android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "branch":      "cm-13.0"
+    "revision": "android-6.0"
   },
   {
-    "repository": "CyanogenMod/android_hardware_sony_timekeep",
+    "remote": "omnirom",
+    "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
-    "branch":      "cm-13.0"
+    "revision": "android-6.0"
   },
   {
-    "repository": "CyanogenMod/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "branch":      "cm-13.0"
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-6.0"
   }
-]
 
+]
