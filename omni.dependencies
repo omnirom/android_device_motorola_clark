@@ -63,7 +63,7 @@
     "remote": "github",
     "repository": "scanno/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
-    "revision": "android-6.0"
+    "revision": "android-6.0-new"
   },
   {
     "remote": "omnirom",
