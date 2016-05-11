@@ -163,3 +163,6 @@ ro.usb.ptp_adb=0x2e84
 
 # Wifi Display
 persist.sys.wfd.virtual
+
+# Build fingerprint
+ro.build.fingerprint=motorola/clark_reteu/clark:5.1.1/LPH23.116-18/23:user/release-keys
