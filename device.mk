@@ -59,9 +59,9 @@ PRODUCT_PACKAGES += \
     SnapdragonCamera
 
 # CMActions
-#PRODUCT_PACKAGES += \
-#    CMActions \
-#    libjni_CMActions
+PRODUCT_PACKAGES += \
+    CMActions \
+    libjni_CMActions
 
 # Display
 PRODUCT_AAPT_CONFIG := normal
