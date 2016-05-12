@@ -123,6 +123,9 @@ BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Increase coldboot timeout
+TARGET_INCREASES_COLDBOOT_TIMEOUT := true
+
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
