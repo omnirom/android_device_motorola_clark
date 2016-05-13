@@ -463,6 +463,7 @@ bin/diag_mdlog-wrap
 bin/diag_qshrink4_daemon
 bin/port-bridge
 bin/test_diag
+bin/ipacm-diag
 bin/netmgrd
 bin/qmi_motext_hook
 bin/qmuxd
