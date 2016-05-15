@@ -152,9 +152,6 @@ TARGET_POWERHAL_VARIANT := qcom
 # Protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := true
 
-# Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/fstab.qcom
-
 # Ril
 TARGET_RIL_VARIANT := caf
 
@@ -191,4 +188,4 @@ TW_NEW_ION_HEAP := true
 TW_INCLUDE_CRYPTO := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
-TARGET_RECOVERY_FSTAB = $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+TARGET_RECOVERY_FSTAB = $(DEVICE_PATH)/rootdir/fstab.qcom
