@@ -54,8 +54,8 @@
     "revision": "android-6.0"
   },
   {
-    "remote": "github",
-    "repository": "scanno/android_kernel_motorola_msm8992",
+    "remote": "omnirom",
+    "repository": "android_kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
     "revision": "android-6.0"
   },
