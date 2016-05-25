@@ -46,6 +46,8 @@ on early-boot
     write /sys/kernel/boot_adsp/boot 1
 
 on boot
+    symlink /dev/block/platform/soc.0/f9824900.sdhci /dev/block/bootdevice
+
     chown system system /sys/class/backlight/lcd-backlight:0/brightness
     chown system system /sys/class/backlight/lcd-backlight:0/max_brightness
     chown system system /sys/class/leds/charging/brightness
