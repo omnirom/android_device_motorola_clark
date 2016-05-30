@@ -165,4 +165,4 @@ ro.usb.ptp_adb=0x2e84
 persist.sys.wfd.virtual
 
 # Build fingerprint
-ro.build.fingerprint=motorola/clark_reteu/clark:5.1.1/LPH23.116-18/23:user/release-keys
+ro.build.fingerprint=motorola/clark_reteu/clark:6.0/MPHS24.49-18-3/3:user/release-keys
