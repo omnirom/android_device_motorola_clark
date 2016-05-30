@@ -58,5 +58,5 @@ $(call inherit-product-if-exists, vendor/motorola/clark/clark-vendor.mk)
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=motorola/clark_reteu/clark:5.1.1/LPH23.116-18/23:user/release-keys \
-    PRIVATE_BUILD_DESC="clark_reteu-user 5.1.1 LPH23.116-18 23 release-keys"
+    BUILD_FINGERPRINT=motorola/clark_reteu/clark:6.0/MPHS24.49-18-3/3:user/release-keys \
+    PRIVATE_BUILD_DESC="clark_reteu-user 6.0 MPHS24.49-18-3 3 release-keys"
