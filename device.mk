@@ -101,16 +101,34 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libc2dcolorconvert \
-    libdivxdrmdecrypt \
+    libc2dcolorconvert
+ 
+#MM_AUDIO
+PRODUCT_PACKAGES += \
+    libOmxAacDec \
     libOmxAacEnc \
     libOmxAmrEnc \
-    libOmxCore \
     libOmxEvrcEnc \
+    libOmxMp3Dec \
     libOmxQcelp13Enc \
+    libOmxAc3HwDec \
+    libstagefright_soft_flacdec
+
+#MM_CORE
+PRODUCT_PACKAGES += \
+    libmm-omxcore \
+    libOmxCore
+
+#MM_VIDEO
+PRODUCT_PACKAGES += \
+    libdivxdrmdecrypt \
     libOmxVdec \
+    libOmxVdecHevc \
+    libOmxVdpp \
     libOmxVenc \
-    libstagefrighthw
+    libOmxVidEnc \
+    libstagefrighthw \
+    mm-vdec-omx-property-mgr
 
 # Memory
 PRODUCT_PROPERTY_OVERRIDES += \
