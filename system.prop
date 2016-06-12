@@ -166,3 +166,6 @@ persist.sys.wfd.virtual
 
 # Build fingerprint
 ro.build.fingerprint=motorola/clark_reteu/clark:6.0/MPHS24.49-18-3/3:user/release-keys
+
+# set SELinux property value
+ro.build.selinux=1
