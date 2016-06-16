@@ -61,7 +61,6 @@ etc/acdbdata/Hdmi_cal.acdb
 etc/acdbdata/Speaker_cal.acdb
 etc/firmware/florida-dsp2-aov-frontend.wmfw
 etc/firmware/florida-dsp3-aov-control.wmfw
-etc/aanc_tuning_mixer.txt
 
 # Audio firmware
 etc/firmware/left.tfa9890.music.config
@@ -524,7 +523,6 @@ vendor/lib/libsubsystem_control.so
 vendor/lib/libSubSystemShutdown.so
 lib64/hw/sensorhub.msm8992.so
 vendor/lib/libsensor1.so
-etc/sensors/sensor_def_qcomdev.conf
 
 # Wat - weird files
 bin/ssr_setup
