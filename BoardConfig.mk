@@ -160,6 +160,8 @@ PROTOBUF_SUPPORTED := true
 
 # Ril
 TARGET_RIL_VARIANT := caf
+BOARD_PROVIDES_LIBRIL := true
+BOARD_PROVIDES_RILD := true
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
