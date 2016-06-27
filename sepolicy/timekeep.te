@@ -12,4 +12,4 @@ allow timekeep self:capability {
 };
 
 allow timekeep time_data_file:file create_file_perms;
-allow timekeep time_data_file:dir { create_dir_perms search };
+allow timekeep time_data_file:dir { getattr create_dir_perms search };

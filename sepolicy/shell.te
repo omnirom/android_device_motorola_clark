@@ -1,1 +1,2 @@
 allow shell batt_health_exec:file getattr;
+allow shell self:capability sys_nice;
