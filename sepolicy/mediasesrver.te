@@ -1,2 +1,4 @@
 allow mediaserver firmware_file:dir search;
+allow mediaserver firmware_file:file { read open };
 allow mediaserver socket_device:sock_file write;
+allow mediaserver adspd:unix_stream_socket connectto;
