@@ -70,6 +70,17 @@
     "repository": "android_packages_apps_SnapdragonCamera",
     "target_path": "packages/apps/SnapdragonCamera",
     "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_libnfnetlink",
+    "target_path": "external/libnfnetlink",
+    "revision": "android-6.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_libnetfilter_conntrack",
+    "target_path": "external/libnetfilter_conntrack",
+    "revision": "android-6.0"
   }
-
 ]
