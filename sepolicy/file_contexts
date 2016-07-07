@@ -4,6 +4,7 @@
 /data/chargeonlymode(/.*)?                      u:object_r:chargeonly_data_file:s0
 /data/hardware_revisions(/.*)?                  u:object_r:hwrev_data_file:s0
 /data/power_supply_logger(/.*)?                 u:object_r:battery_data_file:s0
+/data/time(/.*)?                                u:object_r:timekeep_data_file:s0
 
 /dev/bcm2079x-i2c                               u:object_r:nfc_device:s0
 /dev/block/bootdevice/by-name/metadata          u:object_r:metadata_block_device:s0
