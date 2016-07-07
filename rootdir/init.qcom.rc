@@ -112,6 +112,12 @@ on boot
     #Create NETMGR daemon socket area
     mkdir /dev/socket/netmgr 0750 radio radio
 
+    # Create data for timekeep
+    mkdir /data/time/ 0700 system system
+    write /data/time/ats_2 0
+    chmod 0666 /data/time/ats_2
+    chown system system /data/time/ats_2
+
     #Remove SUID bit for iproute2 ip tool
     chmod 0755 /system/bin/ip
 
