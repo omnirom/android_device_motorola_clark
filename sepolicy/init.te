@@ -5,6 +5,7 @@ allow init graphics_device:chr_file { write ioctl };
 allow init hwrev_data_file:file append;
 allow init input_device:chr_file ioctl;
 allow init kernel:system syslog_read;
+allow init logd:dir getattr;
 allow init mpctl_data_file:file append;
 allow init property_socket:sock_file write;
 allow init sensors_device:chr_file { write ioctl };
