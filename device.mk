@@ -59,10 +59,11 @@ PRODUCT_PACKAGES += \
     mm-qcamera-app \
     SnapdragonCamera
 
-# CMActions
+# Settings
 PRODUCT_PACKAGES += \
     CMActions \
-    libjni_CMActions
+    libjni_CMActions \
+    MotoXStyleParts
 
 # Display
 PRODUCT_AAPT_CONFIG := normal
