@@ -101,8 +101,8 @@ use.voice.path.for.pcm.voip=true
 vidc.enc.dcvs.extra-buff-count=2
 
 # Perf
-ro.min_freq_0 384000
-ro.min_freq_4 384000
+ro.min_freq_0=384000
+ro.min_freq_4=384000
 ro.vendor.at_library=libqti-at.so
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.gt_library=libqti-gt.so
@@ -170,7 +170,8 @@ ro.usb.ptp=0x2e83
 ro.usb.ptp_adb=0x2e84
 
 # Wifi Display
-persist.sys.wfd.virtual
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
 
 # Build fingerprint
 ro.build.fingerprint=motorola/clark_reteu/clark:6.0/MPHS24.49-18-3/3:user/release-keys
