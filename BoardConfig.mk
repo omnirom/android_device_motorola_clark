@@ -159,6 +159,7 @@ TARGET_QCOM_BLUETOOTH_VARIANT := caf-msm8992
 TARGET_PROVIDES_KEYMASTER := true
 
 # Power
+TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(DEVICE_PATH)/power/power_ext.c
 TARGET_POWERHAL_VARIANT := qcom
 
 # Protobuf-c is supported in this build
