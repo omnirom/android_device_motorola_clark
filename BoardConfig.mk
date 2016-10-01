@@ -161,6 +161,9 @@ TARGET_POWERHAL_VARIANT := qcom
 # Protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := true
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
+
 # Ril
 TARGET_RIL_VARIANT := caf
 

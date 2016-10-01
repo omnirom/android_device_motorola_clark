@@ -84,6 +84,10 @@ PRODUCT_PACKAGES += \
     libqdutils \
     libqdMetaData
 
+# Firmware extraction script
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/releasetools/extract_firmware.sh:install/bin/extract_firmware.sh
+
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8992 \
