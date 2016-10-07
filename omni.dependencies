@@ -1,86 +1,50 @@
 [
   {
     "remote": "omnirom",
-    "repository": "android_hardware_qcom_display-caf-msm8992",
-    "target_path": "hardware/qcom/display-caf-msm8992",
-    "revision": "android-6.0"
-  },
-  {
-    "remote": "omnirom",
-    "repository": "android_hardware_qcom_media-caf-msm8992",
-    "target_path": "hardware/qcom/media-caf-msm8992",
-    "revision": "android-6.0"
-  },
-  {
-    "remote": "omnirom",
-    "repository": "android_hardware_qcom_audio-caf-msm8992",
-    "target_path": "hardware/qcom/audio-caf-msm8992",
-    "revision": "android-6.0"
-  },
-  {
-    "remote": "omnirom",
     "repository": "android_device_qcom_caf-sepolicy",
     "target_path": "device/qcom/sepolicy",
-    "revision": "android-6.0"
-  },
-  {
-    "remote": "omnirom",
-    "repository": "android_frameworks_av",
-    "target_path": "frameworks/av-caf",
-    "revision": "android-6.0-caf"
-  },
-  {
-    "remote": "omnirom",
-    "repository": "android_frameworks_native",
-    "target_path": "frameworks/native-caf",
-    "revision": "android-6.0-caf"
-  },
-  {
-    "remote": "omnirom",
-    "repository": "android_hardware_ril",
-    "target_path": "hardware/ril-caf",
-    "revision": "android-6.0-caf"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "vendor_qcom_opensource_dataservices",
     "target_path": "vendor/qcom/opensource/dataservices",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "android_kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "android_packages_apps_SnapdragonCamera",
     "target_path": "packages/apps/SnapdragonCamera",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "android_external_libnfnetlink",
     "target_path": "external/libnfnetlink",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   },
   {
     "remote": "omnirom",
     "repository": "android_external_libnetfilter_conntrack",
     "target_path": "external/libnetfilter_conntrack",
-    "revision": "android-6.0"
+    "revision": "android-7.0"
   }
 ]
