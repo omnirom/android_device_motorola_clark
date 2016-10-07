@@ -1,5 +1,6 @@
-allow toolbox hwrev_data_file:dir { write remove_name search getattr setattr };
-allow toolbox hwrev_data_file:file { write unlink getattr setattr };
-allow toolbox init:fifo_file { write read getattr };
-allow toolbox self:capability chown;
-allow toolbox sysfs:file setattr;
+allow toolbox sysfs:dir relabelfrom;
+allow toolbox sysfs:file relabelfrom;
+allow toolbox sysfs_devices_system_cpu:dir relabelto;
+allow toolbox sysfs_devices_system_cpu:file relabelto;
+allow toolbox sysfs_rqstats:dir { read search open };
+
