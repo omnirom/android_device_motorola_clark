@@ -12,7 +12,7 @@ allow charge_only_mode self:capability { sys_boot dac_override sys_tty_config ne
 allow charge_only_mode self:netlink_kobject_uevent_socket create_socket_perms;
 allow charge_only_mode sysfs_battery_supply:dir search;
 allow charge_only_mode sysfs_battery_supply:file { read open };
-allow charge_only_mode sysfs_light:file { read write open };
+#allow charge_only_mode sysfs_light:file { read write open };
 allow charge_only_mode sysfs_power:file { read write open };
 allow charge_only_mode sysfs_usb_supply:dir search;
 allow charge_only_mode sysfs_usb_supply:file { read open };
