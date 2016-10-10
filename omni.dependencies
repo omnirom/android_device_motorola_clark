@@ -12,10 +12,10 @@
     "revision": "android-7.0"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_motorola_msm8992",
+    "remote": "github",
+    "repository": "CyanogenMod/android_kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "revision": "android-7.0"
+    "revision": "cm-14.0"
   },
   {
     "remote": "omnirom",
