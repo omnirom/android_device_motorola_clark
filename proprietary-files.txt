@@ -355,9 +355,10 @@ vendor/bin/slim_ap_daemon
 vendor/lib/hw/flp.default.so
 vendor/lib/libflp.so
 vendor/lib/libalarmservice_jni.so
-vendor/lib/libgeofence.so
-vendor/lib/libizat_core.so
-vendor/lib/liblbs_core.so
+vendor/lib64/libalarmservice_jni.so
+vendor/lib64/libgeofence.so
+vendor/lib64/libizat_core.so
+vendor/lib64/liblbs_core.so
 vendor/lib/liblocationservice.so
 vendor/lib/liblowi_client.so
 vendor/lib/libquipc_os_api.so

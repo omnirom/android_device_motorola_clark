@@ -46,5 +46,11 @@
     "repository": "android_external_libnetfilter_conntrack",
     "target_path": "external/libnetfilter_conntrack",
     "revision": "android-7.0"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "revision": "android-7.0"
   }
 ]
