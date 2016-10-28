@@ -212,6 +212,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
+
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libqsap_sdk \
