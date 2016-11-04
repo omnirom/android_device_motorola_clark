@@ -59,7 +59,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libmmjpeg_interface \
     mm-qcamera-app \
-    SnapdragonCamera
+    SnapdragonCamera \
+    libshim_camera
 
 # Settings
 PRODUCT_PACKAGES += \
