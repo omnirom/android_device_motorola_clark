@@ -3,7 +3,7 @@
     "remote": "omnirom",
     "repository": "android_device_qcom_caf-sepolicy",
     "target_path": "device/qcom/sepolicy",
-    "revision": "android-7.0"
+    "revision": "android-7.1"
   },
   {
     "remote": "omnirom",
@@ -15,19 +15,19 @@
     "remote": "omnirom",
     "repository": "android_kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "revision": "android-7.0"
+    "revision": "android-7.1"
   },
   {
     "remote": "omnirom",
     "repository": "android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
-    "revision": "android-7.0"
+    "revision": "android-7.1"
   },
   {
     "remote": "omnirom",
     "repository": "android_hardware_sony_timekeep",
     "target_path": "hardware/sony/timekeep",
-    "revision": "android-7.0"
+    "revision": "android-7.1"
   },
   {
     "remote": "omnirom",
@@ -51,6 +51,24 @@
     "remote": "omnirom",
     "repository": "android_hardware_qcom_gps",
     "target_path": "hardware/qcom/gps",
-    "revision": "android-7.0"
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_audio-caf-msm8992",
+    "target_path": "hardware/qcom/audio-caf-msm8992",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_display-caf-msm8992",
+    "target_path": "hardware/qcom/display-caf-msm8992",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_hardware_qcom_media-caf-msm8992",
+    "target_path": "hardware/qcom/media-caf-msm8992",
+    "revision": "android-7.1"
   }
 ]
