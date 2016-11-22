@@ -6,11 +6,13 @@
 	<uses-permission android:name="android.permission.VIBRATE" />
 	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
 	<uses-permission android:name="android.permission.INJECT_EVENTS" />
+        <uses-permission android:name="android.permission.CAMERA" />
+
 	<uses-sdk
 		android:minSdkVersion="18"
 		android:targetSdkVersion="21" />
 	<application
-		android:icon="@drawable/icon"
+		android:icon="@drawable/ic_launcher"
 		android:label="@string/advanced_settings"
 		android:theme="@android:style/Theme.Material.Settings"
 		android:supportsRtl="true" >
@@ -21,6 +23,7 @@
 			android:launchMode="singleTask" >
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
