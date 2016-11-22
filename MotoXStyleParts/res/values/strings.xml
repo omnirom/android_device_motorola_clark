@@ -24,7 +24,7 @@
     <string name="vib_strength_title_head">Strength</string>
     <string name="vib_strength_summary_head">Define the strength of the vibrator</string>
     <string name="vib_test">Test</string>
-    <string name="advanced_settings">Advanced</string>
+    <string name="advanced_settings">Device Features</string>
     <string name="music_title_head">Music</string>
     <string name="music_summary_head">Draw a II to play / pause music and \u003C / \u003E to skip tracks forward and backward</string>
     <string name="category_slider">Slider</string>

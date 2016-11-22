@@ -122,8 +122,8 @@ on boot
     mkdir /data/time/ 0700 system system
 
     # Vibrator permissions
-    chown system system /sys/vibrator/pwmvalue
-    chmod 0644 /sys/vibrator/pwmvalue
+    chown system system /sys/devices/virtual/timed_output/vibrator/vtg_level
+    chmod 0644 /sys/devices/virtual/timed_output/vibrator/vtg_level
 
     #Remove SUID bit for iproute2 ip tool
     chmod 0755 /system/bin/ip
