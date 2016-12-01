@@ -1,3 +1,4 @@
+import init.omni.rc
 import init.mmi.usb.rc
 import init.qcom.power.rc
 
