@@ -9,7 +9,7 @@
     "remote": "omnirom",
     "repository": "vendor_qcom_opensource_dataservices",
     "target_path": "vendor/qcom/opensource/dataservices",
-    "revision": "android-7.0"
+    "revision": "android-7.1"
   },
   {
     "remote": "omnirom",
@@ -51,6 +51,12 @@
     "remote": "omnirom",
     "repository": "android_hardware_qcom_gps",
     "target_path": "hardware/qcom/gps",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_vendor_codeaurora_telephony",
+    "target_path": "vendor/codeaurora/telephony",
     "revision": "android-7.1"
   },
   {
