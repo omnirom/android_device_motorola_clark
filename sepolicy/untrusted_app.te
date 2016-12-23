@@ -1,0 +1,2 @@
+allow untrusted_app exfat:dir { rw_dir_perms search };
+allow untrusted_app exfat:file rw_file_perms;
