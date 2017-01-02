@@ -1,0 +1,4 @@
+allow audioserver system_data_file:sock_file write;
+allow audioserver socket_device:sock_file write;
+allow audioserver adspd:unix_stream_socket connectto;
+
