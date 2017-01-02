@@ -4,3 +4,5 @@ allow dumpstate mnt_media_rw_file:dir getattr;
 allow dumpstate modem_efs_partition_device:blk_file getattr;
 allow dumpstate storage_file:dir getattr;
 allow dumpstate vfat:dir search;
+allow dumpstate iop_data_file:sock_file unlink;
+allow dumpstate iop_data_file:sock_file create;
