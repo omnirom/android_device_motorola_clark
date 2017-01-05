@@ -1,1 +1,3 @@
 allow shell batt_health_exec:file getattr;
+allow shell dalvikcache_data_file:dir write;
+allow shell self:capability dac_override;
