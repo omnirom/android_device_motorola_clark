@@ -55,12 +55,6 @@
   },
   {
     "remote": "omnirom",
-    "repository": "android_vendor_codeaurora_telephony",
-    "target_path": "vendor/codeaurora/telephony",
-    "revision": "android-7.1"
-  },
-  {
-    "remote": "omnirom",
     "repository": "android_hardware_qcom_audio-caf-msm8992",
     "target_path": "hardware/qcom/audio-caf-msm8992",
     "revision": "android-7.1"
