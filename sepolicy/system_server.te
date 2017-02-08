@@ -6,7 +6,5 @@ allow system_server sysfs_light:file rw_file_perms;
 allow system_server sysfs_power:file rw_file_perms;
 allow system_server sysfs_vibrator:file rw_file_perms;
 allow system_server sysfs_vibrator:dir search;
-# allow system_server unlabeled:file unlink;
-#allow system_server block_device:blk_file { read write };
-#allow system_server self:system module_load;
 allow system_server shell_prop:property_service set;
+allow system_server user_profile_data_file:dir r_dir_perms;
