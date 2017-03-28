@@ -165,7 +165,7 @@ PRODUCT_PACKAGES += \
 
 # Offmode Charging
 PRODUCT_PACKAGES += \
-    charger_res_images
+    omni_charger_res_images
 
 # Perf
 PRODUCT_COPY_FILES += \
