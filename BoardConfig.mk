@@ -65,6 +65,8 @@ USE_CAMERA_STUB := true
 
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
+HEALTHD_FORCE_BACKLIGHT_CONTROL := true
+TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
